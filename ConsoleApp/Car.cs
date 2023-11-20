@@ -14,6 +14,9 @@ namespace ConsoleApp
 		public string Model { get; set; }
 		// Skapa en egenskap med namnet "Model"
 
+		public static string VehicleType = "car";
+		// Alla instanser har samma värde på VehicleType
+
 		public int WheelCount { get; set; }
 
 

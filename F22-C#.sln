@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{CBD64662-63EF-4FC1-8309-DEB7129603ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactBlog.Server", "ReactBlog\ReactBlog.Server\ReactBlog.Server.csproj", "{C821BA56-2634-4385-BF2F-57346E60F470}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactblog.client", "ReactBlog\reactblog.client\reactblog.client.esproj", "{CA25D866-BF74-4642-A1DC-D4F217B78C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{CBD64662-63EF-4FC1-8309-DEB7129603ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD64662-63EF-4FC1-8309-DEB7129603ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD64662-63EF-4FC1-8309-DEB7129603ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C821BA56-2634-4385-BF2F-57346E60F470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C821BA56-2634-4385-BF2F-57346E60F470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C821BA56-2634-4385-BF2F-57346E60F470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C821BA56-2634-4385-BF2F-57346E60F470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA25D866-BF74-4642-A1DC-D4F217B78C1A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
